@@ -1,0 +1,7 @@
+{
+    "development": {
+       "uri": "mongodb+srv://nastya:Anastasiia123456789@cluster0.1mp7w.mongodb.net/mongo-practice"
+    },
+    "test": {},
+    "production": {}
+}
