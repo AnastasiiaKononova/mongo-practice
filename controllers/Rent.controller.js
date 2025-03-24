@@ -21,10 +21,14 @@ const {Rent, User, Movie} = require('../models');
  }
  
 
- module.exports.getAllUserRent = async (req, res, next) => {
+ module.exports.getAllUserRents = async (req, res, next) => {
     try {
         const {params: {userId}} = req;
         // повернути всі ренди цього користувача
+        const allRents = await Rent.find({
+            user: userId
+        }).populate('user').populate('movie');
+        res.status(200).send({data: allRents})
     } catch(error) {
         next(error)
     }
