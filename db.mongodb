@@ -1,4 +1,4 @@
-use mongo-welcome-db;
+
 
 
 db.rents.find();
