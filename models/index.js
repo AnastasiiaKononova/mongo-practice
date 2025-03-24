@@ -6,7 +6,7 @@ const db = require('../configs/mConfig.json');
  
 const CONFIG = db[process.env.NODE_ENV || "development"];
 
-const url = "mongodb+srv://nastya:Anastasiia123456789@cluster0.1mp7w.mongodb.net/mongo-welcome-db"
+const url = "mongodb+srv://nastya:Anastasiia123456789@cluster0.1mp7w.mongodb.net/mongo-practice";
 //  const url = `mongodb://${CONFIG.host}:${CONFIG.port}/${CONFIG.database}`
  
  mongoose.connect(url)

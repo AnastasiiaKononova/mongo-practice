@@ -1,6 +1,6 @@
 {
     "development": {
-       "uri": "mongodb+srv://nastya:Anastasiia123456789@cluster0.1mp7w.mongodb.net/mongo-practice"
+       "uri": "mongodb+srv://nastya:Anastasiia123456789@cluster0.1mp7w.mongodb.net/mongo-welcome-db"
     },
     "test": {},
     "production": {}
