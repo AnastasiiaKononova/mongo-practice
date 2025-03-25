@@ -25,7 +25,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       favouriteFilms: {
-        field: 'favorite_films',
+        field: 'favourite_films',
         type: Sequelize.TEXT
       },
       createdAt: {
